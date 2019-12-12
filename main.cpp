@@ -14,5 +14,6 @@ class Voter{
 
 int main(){
   cout << "Hello World!" << endl;
+  cout << "YEEE";
   return 0;
 }
