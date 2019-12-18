@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <windows.h>
 
 using namespace std;
 
@@ -404,6 +405,7 @@ void votingMenu(Queue* ptrQ){
 			system("PAUSE");
 			system("CLS");
 			votingMenu(ptrQ);
+			return;
 		}
 	}
 	for(int i = 0; i < 4; i++){
@@ -415,6 +417,7 @@ void votingMenu(Queue* ptrQ){
 				system("PAUSE");
 				system("CLS");
 				votingMenu(ptrQ);
+				return;
 			}
 		}
 	}
